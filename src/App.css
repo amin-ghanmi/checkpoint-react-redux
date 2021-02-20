@@ -1,0 +1,41 @@
+.header{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(6, 158, 138);
+    color: white;
+    margin-top: 30px;
+    margin-left: 300px;
+    border-radius: 10px;
+    align-items: center;
+}
+.main{
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.main button{
+    width: 8%;
+    background-color: rgb(145, 218, 9);
+    border-radius: 10px;
+    margin-left: 8%;
+    
+}
+.main span{
+    width: 5%;
+    margin-right: 8%;
+}
+.text{
+    width: 70%;
+    align-self: center;
+}
+.lineTh{
+    width: 70%;
+    align-self: center;
+    text-decoration: line-through;
+}
