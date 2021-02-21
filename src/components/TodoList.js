@@ -7,7 +7,7 @@ const TodoList = () => {
     const listItem = useSelector(state => state.listItem)
     const [filter, setFilter] = useState(false);
     const handleFilter=()=>{
-        setFilter=(!filter)
+        setFilter(!filter)
     }
     return (
         <div>
